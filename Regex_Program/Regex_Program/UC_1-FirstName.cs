@@ -9,7 +9,7 @@ namespace Regex_Program
 {
     public class UC_1_FirstName
     {
-        public static string Regex_Rule = "^[A-Za-z]{3,}";
+        public static string Regex_Rule = "^[A-Za-z]{3,}$";
 
         public bool validatePincode(string inputstring)
         {
