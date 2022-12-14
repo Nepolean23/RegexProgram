@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace Regex_Program
 {
-    public class UC_1_FirstName
+    public class UC_2_LastName
     {
-        public static string Regex_Rule = "^[A-Za-z]{3,}$";
+        public static string Regex_rule="^[A-za-z]{3,}$";
 
-        public bool validatePincode(string inputstring)
+        public bool ValidatePincode( string inputstring)
         {
-            return Regex.IsMatch(inputstring, Regex_Rule);
+            return Regex.IsMatch(inputstring, Regex_rule);
         }
-
     }
 }
