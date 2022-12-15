@@ -10,11 +10,13 @@
 //Console.WriteLine(password.ValidatePincode("abc.xyz@bl.co.in"));
 
 //UC_4_PhoneNumber Number=new UC_4_PhoneNumber();
+//Console.WriteLine(Number.ValidatePincode("91 9943177412"));
 
 //UC_5_PasswordCreating password= new UC_5_PasswordCreating();
+//Console.WriteLine(password.ValidatePincode("Qwsdti8!));
 
-UC_9_SampleEmailId Sample=new UC_9_SampleEmailId();
-Console.WriteLine(Sample.ValidatePincode("abc+100@gmail.com"));
+//UC_9_SampleEmailId Sample=new UC_9_SampleEmailId();
+//Console.WriteLine(Sample.ValidatePincode("abc+100@gmail.com"));
 
 
 
